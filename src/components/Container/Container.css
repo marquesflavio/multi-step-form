@@ -1,0 +1,15 @@
+.container{
+    width: 60%;
+    height: 600px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.082);
+    margin: auto;
+    padding: 10px;
+}
+.container_lateral{
+    height: 580px;
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 255, 0.404);
+}
