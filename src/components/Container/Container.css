@@ -1,11 +1,14 @@
 .container{
-    width: 60%;
+    width: 55%;
     height: 600px;
     background-color: #FFF;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.082);
     margin: auto;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: 100px; */
 }
 .container_lateral{
     height: 580px;
