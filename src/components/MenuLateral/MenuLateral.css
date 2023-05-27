@@ -6,3 +6,9 @@
 .ul{
     list-style: none;
 }
+.container_lista{
+    display: grid;
+}
+.container_item{
+    grid-row: 1/3;
+}

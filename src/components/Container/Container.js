@@ -5,8 +5,17 @@ import Formulario from '../Formulario/Formulario';
 const Container = () => {
     return (
         <div className='container'>
-            <MenuLateral/>
-            <Formulario/>
+            <MenuLateral
+            
+            
+            />
+            
+            <Formulario
+                name = "Name"
+                address = "Address"
+                phone = "Phone Number"  
+                button = "Next Step"        
+            />
         </div>
     )
 }

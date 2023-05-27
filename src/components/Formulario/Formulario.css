@@ -1,4 +1,5 @@
 .formulario{
+    font-size: 1.2em;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
@@ -6,7 +7,7 @@
 }
 .formulario input{
     border-radius: 5px;
-    height: 3em;
+    height: 3.5em;
 }
 .formulario h1,
 .formulario p,
@@ -15,9 +16,16 @@
 }
 .formulario button{
     background-color: darkblue;
+    font-size: 18px;
     border-radius: 5px;
     color: white;
     height: 3em;
-    width: 100px;
+    width: 150px;
     margin-top: 100px;
+    position: relative;
+    left: 70%;
+    
+}
+.formulario button:hover{
+    cursor: pointer;
 }

@@ -4,9 +4,11 @@ const MenuLateral = () => {
     return(
         <div className='container_lateral'>
             <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
+                <li className='container_lista'>
+                    <p className='container_item'>1</p> 
+                    <p>Step 1</p>
+                    <p>Your Info</p>
+                </li>
             </ul>
                 
 
