@@ -2,13 +2,43 @@
     background-color: blue;
     height: 580px;
     width: 40%;
+    padding: 20px;
+    margin-right: 100px;
 }
 .ul{
     list-style: none;
 }
 .container_lista{
-    display: grid;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 17px;
+  justify-content: start;
+  gap: 0px 10px;
+
+  
 }
 .container_item{
     grid-row: 1/3;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border-radius: 50%;
+    width: 32px;
+    font-weight: 800;
+    border: 1px solid white;
+}
+.container_item:hover{
+    cursor: pointer;
+}
+.container_item:active{
+    background-color: lightblue;
+}
+.container_lista p{
+    color: white;  
+    text-transform: uppercase;  
+    font-size: 14px;
+}
+.container_item_texto{
+    font-weight: bold;
+    font-size: 1em !important;
 }

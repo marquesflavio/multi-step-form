@@ -5,10 +5,8 @@ import Formulario from '../Formulario/Formulario';
 const Container = () => {
     return (
         <div className='container'>
-            <MenuLateral
-            
-            
-            />
+            <MenuLateral/>
+                
             
             <Formulario
                 name = "Name"
