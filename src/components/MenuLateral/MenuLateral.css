@@ -29,6 +29,7 @@
 }
 .container_item:hover{
     cursor: pointer;
+    background-color: lightblue;
 }
 .container_item:active{
     background-color: lightblue;

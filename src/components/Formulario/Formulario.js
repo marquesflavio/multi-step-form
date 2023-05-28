@@ -3,31 +3,24 @@ import PaginaDois from '../PaginaDois/PaginaDois'
 
 const Formulario = (props) => {
 
-    // function submeteu(e){
-    //     e.preventDefault()
-    //     console.log('submeteu formulário')
-        
-    // }
-
-    function proximaPagina(e){
-        e.preventDefault()
+    function proximaPagina(){
         window.location.href = <PaginaDois/>
     }
 
     return (
         
         <form className="formulario">
-            <h1>Personal info</h1>
-            <p>Please provide your name, email address, and phone number.</p>
+            <h1>{props.info}</h1>
+            <p>{props.paragraph}</p>
 
             <label>{props.name}</label>
-            <input type='text' name="name"></input>
+            <input required type='text' placeholder='Nome completo' name="name"></input>
 
             <label>{props.address}</label>
-            <input></input>
+            <input required type='text' placeholder='Rua, Bairro, Cidade, Estado' name="address"></input>
 
             <label>{props.phone}</label>
-            <input></input>
+            <input type='tel' name="phone" placeholder= "(00) 123-456-789" pattern="[0-9]-{2}[0-9]{3}-[0-9]{3}-[0-9]{3}"></input>
 
             <button onClick={proximaPagina}>
                 {props.button}

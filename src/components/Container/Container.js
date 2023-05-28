@@ -9,6 +9,8 @@ const Container = () => {
                 
             
             <Formulario
+                info = "Personal info"
+                paragraph = "Please provide your name, email address, and phone number."
                 name = "Name"
                 address = "Address"
                 phone = "Phone Number"  

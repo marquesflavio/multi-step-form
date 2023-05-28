@@ -8,6 +8,7 @@
 .formulario input{
     border-radius: 5px;
     height: 3.5em;
+    padding: 5px;
 }
 .formulario h1,
 .formulario p,
