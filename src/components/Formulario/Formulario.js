@@ -1,8 +1,21 @@
 import './Formulario.css'
+import PaginaDois from '../PaginaDois/PaginaDois'
 
 const Formulario = (props) => {
-    return (
 
+    // function submeteu(e){
+    //     e.preventDefault()
+    //     console.log('submeteu formulário')
+        
+    // }
+
+    function proximaPagina(e){
+        e.preventDefault()
+        window.location.href = <PaginaDois/>
+    }
+
+    return (
+        
         <form className="formulario">
             <h1>Personal info</h1>
             <p>Please provide your name, email address, and phone number.</p>
@@ -16,9 +29,12 @@ const Formulario = (props) => {
             <label>{props.phone}</label>
             <input></input>
 
-            <button>{props.button}</button>
+            <button onClick={proximaPagina}>
+                {props.button}
+            </button>
 
         </form>
+
 
     )
 }
