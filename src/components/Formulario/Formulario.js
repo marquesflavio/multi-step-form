@@ -5,7 +5,7 @@ const Formulario = (props) => {
 
     return (
         
-        <div>
+        <div className='container-formulario'>
             <form className="formulario">
                 <h1>{props.info}</h1>
                 <p>{props.paragraph}</p>
