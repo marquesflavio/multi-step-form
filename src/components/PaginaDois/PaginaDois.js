@@ -1,17 +1,13 @@
 import MenuLateral from "../MenuLateral/MenuLateral"
-import Formulario from "../Formulario/Formulario"
+import Botao from "../Botao/Botao"
 
 const PaginaDois = () => {
     return(
         <div className='container'>
             <MenuLateral/>
             
-        
-            <Formulario
-                info = "Select your plan"
-                paragraph = "You have the option of monthly or yearly biling."
-                button = "Next Step"        
-            />
+            <Botao button="Go Back"/>
+            <Botao button="Next Step"/>
           
          </div>
 
