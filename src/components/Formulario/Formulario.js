@@ -1,7 +1,9 @@
 import './Formulario.css'
 import Botao from '../Botao/Botao'
 
+
 const Formulario = (props) => {
+
 
     return (
         
@@ -17,7 +19,9 @@ const Formulario = (props) => {
                 <input type='tel' name="phone" placeholder= "(00) 123-456-789" pattern="[0-9]-{2}[0-9]{3}-[0-9]{3}-[0-9]{3}"></input>
             </form>
         
-                <Botao button="Next Step"/>
+                
+                    <Botao button="Next Step"/>
+            
         </div>
 
 
